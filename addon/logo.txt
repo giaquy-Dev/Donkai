@@ -1,4 +1,12 @@
-         .                                                      .
+    def show_logo() -> None:
+    """Print the application logo.
+    Args:
+        None
+    Returns:
+        None
+    """
+    logo = """                         
+			     .                                                      .
 			        .n                   .                 .                  n.
 			  .   .dP                  dP                   9b                 9b.    .
 			 4    qXb         .       dX                     Xb       .        dXp     t
@@ -19,4 +27,6 @@
 			                              X. 9  `   '  P )X
 			                              `b  `       '  d'
 	                                   
-                                   LOGO MADE BY DGQ DEV 
+                                                    LOGO MADE BY DGQ DEV 
+
+"""
