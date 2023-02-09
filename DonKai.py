@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python3
  try:
-    from tools.addons.checks import (
+    from addons.checks import (
         check_method_input,
         check_number_input,
         check_target_input,
     )
-    from tools.addons.logo import show_logo
+    from addons.logo import show_logo
 
 def warn(*args, **kwargs):
     pass
